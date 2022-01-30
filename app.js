@@ -19,6 +19,7 @@ recognition.addEventListener("result",(e)=>{
 recognition.addEventListener("end",()=>{
     recognition.start();
 })
+recognition.start();
 // button.addEventListener("click",()=>{
 //     recognition.start();
     
